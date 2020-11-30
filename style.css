@@ -8,7 +8,20 @@ body{
     background-color: green;
 }
 
+/* UTILITIES */
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
 
+.linkStile{
+    text-decoration: none;
+    color: black;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
 
 /* LAYOUT */
 header{
@@ -23,11 +36,7 @@ header nav ul li{
    margin-right: 10px;
 }
 
-header nav ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-}
+
 
 header nav ul li a:last-child {
     margin-right: 30px;
@@ -37,3 +46,45 @@ header nav ul li a:last-child {
 header .titolo img{
     width: 200px;
 }
+
+/* MAIN/ DEVOTION */
+
+.devotion{
+    background-color: grey;
+    
+}
+
+.devotion .container{
+    background-color: lightblue;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.devotion .container .titolo{
+    flex-basis: 500px;
+}
+
+.devotion .container .skate-img{
+    background-color: #c0e1cf;
+}
+
+/* DEVOTION/ TITOLO */
+.devotion .container .titolo p{
+    margin-top: 20px;
+}
+
+.devotion .container .titolo button{
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    border: solid 3px #f2d0c7;
+}
+
+
+
+/* DEVOTION/SKATE-IMG */
+.devotion .container .skate-img img{
+    width: 250px;
+}
+
