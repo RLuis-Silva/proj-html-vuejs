@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: green;
+}
+
+
+
+/* LAYOUT */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 0;
+}
+
+header nav ul li{
+   display: inline-block;
+   margin-right: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+header nav ul li a:last-child {
+    margin-right: 30px;
+    
+}
+
+header .titolo img{
+    width: 200px;
+}
