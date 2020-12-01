@@ -195,6 +195,15 @@ header .titolo img{
 
 
 
+/* NAV-SLIDE */
+.nav-slide .icona i{
+    margin: 10px;
+    font-size: 10px;
+    color: #f2d0c7;
+    cursor: pointer;
+}
+
+
 
 /* SEZIONE BOXES */
 .boxes .box-riga{
