@@ -28,6 +28,8 @@ body{
     cursor: pointer;
 }
 
+
+
 .linkStile{
     text-decoration: none;
     color: black;
@@ -268,3 +270,36 @@ header .titolo img{
    
 }
 
+
+
+/* FOOTER */
+
+footer{
+    background-color: #c0e1cf;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    font-size: 12px;
+}
+
+
+footer .container ul{
+    list-style-type: none;
+   
+}
+footer .container ul li {
+    /* font-size: 12px; */
+}
+/* footer .container .footer-box:last-child div{
+
+} */
+
+footer .container .footer-box:last-child ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+    
+}
