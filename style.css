@@ -113,12 +113,12 @@ header .titolo img{
 /* SEZIONE DEVOTION */
 
 .devotion{
-    background-color: grey;
+    /* background-color: grey; */
     
 }
 
 .devotion .container{
-    background-color: lightblue;
+    /* background-color: lightblue; */
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -131,7 +131,7 @@ header .titolo img{
 
 
 .devotion .container .skate-img{
-    background-color: #c0e1cf;
+    /* background-color: #c0e1cf; */
 }
 
 /* DEVOTION/ TITOLO */
