@@ -77,6 +77,24 @@ body{
     top: 1380px;
 }
 
+.working{
+    position: relative;
+}
+
+.bianca3{
+    position: absolute;
+    right: 20px;
+    top: calc(100% - 70px);
+}
+
+.articoli{
+    position: relative;
+}
+.bianca4{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
 
 /* STILE TOPOGRAFIA */
 
