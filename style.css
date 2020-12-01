@@ -108,18 +108,20 @@ header .titolo img{
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
+    padding: 0;
 }
 
 .boxes .box{
     background-color: orange;
-    border: solid 1px black;
+    /* border: solid 2px black; */
     width: calc(100% / 3);
+    
     
     
 }
 
 .boxes .box img{
     background-size: cover;
-    width: 90%;
+    width: 100%;
     /* transform: translateX(50%)-50%; */
 }
