@@ -57,6 +57,12 @@ h2{
     margin-bottom: 30px;
 }
 
+h3{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .piccolo1{
     font-size: 16px;
     margin-bottom: 20px;
@@ -66,6 +72,13 @@ h2{
     font-size: 12px;
     margin-bottom: 20px;
 }
+
+
+/* STILE TOPO/ ARTICOLI */
+.articolo-box p{
+    font-style: italic;
+}
+
 
 
 
@@ -229,3 +242,29 @@ header .titolo img{
 .work-with-us .container button:hover a{
     color: white;
 }
+
+
+
+/* SEZIONE ARTICOLI */
+.articoli .container{
+    /* background-color: orange; */
+    display: flex;
+}
+
+.articoli .articolo-box{
+    flex-basis: calc(100% / 3);
+    /* background-color: lightblue; */
+    /* border: solid 1px black; */
+    padding: 15px;
+}
+
+.articoli .articolo-box .img{
+    /* background-color: grey; */
+    
+}
+
+.articolo-box img{
+    width: 100%;
+   
+}
+
