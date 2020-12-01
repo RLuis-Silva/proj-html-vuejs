@@ -21,6 +21,13 @@ body{
     margin: 0 auto;
 }
 
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: #d8f0e3;
+    cursor: pointer;
+}
+
 .linkStile{
     text-decoration: none;
     color: black;
@@ -42,18 +49,22 @@ body{
 
 h1{
     font-size:  60px;
+    margin-bottom: 30px;
 }
 
 h2{
     font-size: 45px;
+    margin-bottom: 30px;
 }
 
 .piccolo1{
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .piccolo2{
     font-size: 12px;
+    margin-bottom: 20px;
 }
 
 
@@ -109,15 +120,11 @@ header .titolo img{
 }
 
 /* DEVOTION/ TITOLO */
-.devotion .container .titolo p{
-    margin-top: 20px;
-}
 
 .devotion .container .titolo button{
-    width: 200px;
-    height: 60px;
-    margin-top: 50px;
+    margin-top: 20px;
     border: solid 3px #f2d0c7;
+    background-color: white;
 }
 
 /* DEVOTION/SKATE-IMG */
@@ -202,4 +209,23 @@ header .titolo img{
 
 .fase h4{
     margin-bottom: 10px;
+}
+
+
+/* SEZIONE WORK-WITH-US */
+.work-with-us{
+    background-color: #faf7f2;
+}
+
+.work-with-us .container button{
+    border: none;
+    margin-top: 10px;
+}
+
+.work-with-us .container button:hover{
+    background-color: #f2d0c7;
+}
+
+.work-with-us .container button:hover a{
+    color: white;
 }
