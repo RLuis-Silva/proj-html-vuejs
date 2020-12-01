@@ -16,6 +16,7 @@ body{
 
 /* UTILITIES */
 .container{
+    padding: 50px;
     width: 1180px;
     margin: 0 auto;
 }
@@ -32,6 +33,26 @@ body{
 .testoGrigino{
     color: #757575;
 }
+.testoCenter{
+    text-align: center;
+}
+
+
+/* STILE TOPOGRAFIA */
+
+h1{
+    font-size:  60px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+.piccolo1{
+    font-size: 22px;
+}
+
+
 
 /* LAYOUT */
 header{
@@ -77,9 +98,7 @@ header .titolo img{
     flex-basis: 500px;
 }
 
-.devotion .container .titolo div{
-    font-size:  50px;
-}
+
 
 .devotion .container .skate-img{
     background-color: #c0e1cf;
@@ -130,4 +149,53 @@ header .titolo img{
 .box-riga:last-child {
     position: relative;
     top: -5px;
+}
+
+/* SEZIONE WORKING */
+
+.working-fasi{
+    display: flex;
+    background-color: lightblue;
+    margin-top: 30px;
+}
+
+.working-fasi .fase{
+    border: solid 1px black;
+    text-align: center;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.icona-working i{
+    background-color: #faf7f1;
+    width: 120px;
+    height: 120px;
+    /* padding: 30px; */
+    padding-left: 5px;
+    padding-top: 35px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+    font-size: 40px;
+}
+
+.col1 .icona-working i{
+    /* padding-left: 45px; */
+    color: #badac9;
+}
+
+.col2 .icona-working i{
+    color: #f8d12f;
+}
+
+.col3 .icona-working i{
+    /* padding-left: 35px; */
+    color: #80465f;
+}
+
+.col4 .icona-working i{
+    color: #eb6950;
+}
+
+.fase h4{
+    margin-bottom: 10px;
 }
