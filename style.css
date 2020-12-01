@@ -52,10 +52,7 @@ body{
 }
 
 
-/* .boxes .box-riga:last-child .box:nth-child(2){
-    position: relative;
-} */
-
+/* RIQUADRO FRECCIA BIANCA LATO DEL SITO */
 .boxFreccia{
     background-color: #c0e1cf;
     width: 30px;
@@ -95,6 +92,9 @@ body{
     right: 20px;
     top: 40px;
 }
+
+
+
 
 /* STILE TOPOGRAFIA */
 
