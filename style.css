@@ -280,7 +280,9 @@ footer{
 footer .container{
     display: flex;
     justify-content: space-between;
-    background-color: orange;
+    /* background-color: orange; */
+    padding: 40px;
+    padding-left: 0;
     font-size: 12px;
 }
 
@@ -290,11 +292,9 @@ footer .container ul{
    
 }
 footer .container ul li {
-    /* font-size: 12px; */
+    margin-bottom: 10px;
 }
-/* footer .container .footer-box:last-child div{
 
-} */
 
 footer .container .footer-box:last-child ul li{
     display: inline-block;
@@ -302,4 +302,14 @@ footer .container .footer-box:last-child ul li{
     margin-top: 10px;
     font-size: 17px;
     
+}
+
+footer .container .footer-box:nth-child(1) img{
+    width: 190px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+footer .container .footer-box:nth-child(1) p{
+    margin-left: 90px;
 }
