@@ -128,16 +128,46 @@ header .titolo img{
 
 /* SEZIONE DEVOTION */
 
-.devotion{
-    /* background-color: grey; */
-    
-}
-
 .devotion .container{
     /* background-color: lightblue; */
+    width: 100%;
+    margin: 0 0;
     padding: 30px;
     display: flex;
     justify-content: space-between;
+}
+
+.container .freccia{
+    flex-grow: 1;
+    /* background-color: orange; */
+    position: relative;
+}
+
+.container .frecciaDx i{
+    position: absolute;
+    /* left: 133px; */
+    /* left: calc(100% -40px); */
+    right: 0;
+}
+
+.freccia i{
+    font-size: 30px;
+    position: absolute;
+    top: calc(300px /2);
+    width: 30px;
+    height:30px;
+    padding-left: 6px;
+    padding-bottom: 3px;
+    border-radius: 50%;
+    background-color: #f2d0c7;
+    color: white;
+    cursor: pointer;
+}
+
+.freccia i:hover{
+    width: 32px;
+    height: 32px;
+    font-size: 35px;
 }
 
 .devotion .container .titolo{
