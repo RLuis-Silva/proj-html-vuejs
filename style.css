@@ -94,6 +94,33 @@ body{
 }
 
 
+/* RIQUADRO FIXED */
+
+.fix{
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    /* width: 100px; */
+    /* background-color: orange; */
+}
+
+.quadratoRosso i{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.quadratoShop{
+    margin-top: 5px;
+}
+.quadratoShop i{
+    background-color: white;
+    padding: 4px;
+    color: red;
+    cursor: pointer;
+}
+
 
 
 /* STILE TOPOGRAFIA */
