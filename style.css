@@ -35,6 +35,11 @@ body{
     color: black;
 }
 
+.frecciaBianca{
+    text-decoration: none;
+    color: white;
+}
+
 .upperCase{
     text-transform: uppercase;
 }
@@ -44,6 +49,32 @@ body{
 }
 .testoCenter{
     text-align: center;
+}
+
+
+/* .boxes .box-riga:last-child .box:nth-child(2){
+    position: relative;
+} */
+
+.boxFreccia{
+    background-color: #c0e1cf;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+.bianca1{
+    position: absolute;
+    right: 20px;
+    top: 960px;
+}
+
+.bianca2{
+    position: absolute;
+    right: 20px;
+    top: 1380px;
 }
 
 
@@ -196,14 +227,22 @@ header .titolo img{
 
 
 /* NAV-SLIDE */
+.nav-slide{
+    padding: 10px;
+}
 .nav-slide .icona i{
-    margin: 10px;
+    margin: 5px;
     font-size: 10px;
     color: #f2d0c7;
     cursor: pointer;
+    /* transition: 2s; */
 }
 
+.nav-slide .icona i:hover{
+    border: solid 2px lightblue;
+    border-radius: 100%;
 
+}
 
 /* SEZIONE BOXES */
 .boxes .box-riga{
