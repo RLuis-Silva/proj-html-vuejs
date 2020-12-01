@@ -52,11 +52,22 @@ body{
 h1{
     font-size:  60px;
     margin-bottom: 30px;
+    font-weight: 100;
+}
+
+h1 em{
+    font-family: 'Source Serif Pro', serif;
+    /* font-weight: 900; */
 }
 
 h2{
     font-size: 45px;
     margin-bottom: 30px;
+}
+
+h2 em{
+    font-family: 'Source Serif Pro', serif;
+    /* font-weight: 900; */
 }
 
 h3{
