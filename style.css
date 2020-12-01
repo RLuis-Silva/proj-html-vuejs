@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: green;
+    /* background-color: green; */
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nerko One', cursive;
     font-family: 'Ubuntu', sans-serif;
@@ -16,7 +16,7 @@ body{
 
 /* UTILITIES */
 .container{
-    padding: 50px;
+    padding: 80px;
     width: 1180px;
     margin: 0 auto;
 }
@@ -49,7 +49,11 @@ h2{
 }
 
 .piccolo1{
-    font-size: 22px;
+    font-size: 16px;
+}
+
+.piccolo2{
+    font-size: 12px;
 }
 
 
@@ -155,14 +159,14 @@ header .titolo img{
 
 .working-fasi{
     display: flex;
-    background-color: lightblue;
-    margin-top: 30px;
+    /* background-color: lightblue; */
+    margin-top: 70px;
 }
 
 .working-fasi .fase{
-    border: solid 1px black;
+    /* border: solid 1px black; */
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     padding-top: 20px;
 }
 
