@@ -21,261 +21,263 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <!-- a sx HEADER-->
-        <div class="titolo"> 
-            <img src="./img/logo-sidearea-1-1.png" alt="">
-        </div>
-        <!-- a dx HEADER-->
-        <nav>
-            <ul>
-                <li><a href="#" class="linkStile upperCase">home</a></li>
-                <li><a href="#" class="linkStile upperCase">pages</a></li>
-                <li><a href="#" class="linkStile upperCase">portfolio</a></li>
-                <li><a href="#" class="linkStile upperCase">blog</a></li>
-                <li><a href="#" class="linkStile upperCase">shop</a></li>
-                <li><a href="#" class="linkStile upperCase">elements</a></li>
-                <li><a href="#" class="linkStile upperCase"><i class="fas fa-th"></i></a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <div class="devotion">
-            <div class="container">
-                <!-- SLIDE SX -->
-                <div class="frecciaSx freccia">
-                    <div class="icona">
-                        <i class="fas fa-angle-left"></i>
+    <div id="web">
+        <header>
+            <!-- a sx HEADER-->
+            <div class="titolo"> 
+                <img src="./img/logo-sidearea-1-1.png" alt="">
+            </div>
+            <!-- a dx HEADER-->
+            <nav>
+                <ul v-for="sezione in navBarSezioni">
+                    <li><a href="#" class="linkStile upperCase">{{sezione.nome}}</a></li>
+                    <!-- <li><a href="#" class="linkStile upperCase">pages</a></li>
+                    <li><a href="#" class="linkStile upperCase">portfolio</a></li>
+                    <li><a href="#" class="linkStile upperCase">blog</a></li>
+                    <li><a href="#" class="linkStile upperCase">shop</a></li>
+                    <li><a href="#" class="linkStile upperCase">elements</a></li>
+                    <li><a href="#" class="linkStile upperCase"><i class="fas fa-th"></i></a></li> -->
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <div class="devotion">
+                <div class="container">
+                    <!-- SLIDE SX -->
+                    <div class="frecciaSx freccia">
+                        <div class="icona">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                    </div>
+    
+                    <div class="titolo">
+                        <h1>Devotion that never <em>end</em></h1>
+                        <p class="testoGrigino piccolo1">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                            consectetur, adipisci velit, sed quia non numquam eius modi.
+                        </p>
+                        <button class="button">
+                            <a href="#" class="linkStile upperCase">read more</a>
+                        </button>
+                    </div>
+                    <div class="skate-img">
+                        <img src="./img/h-2-slider-img-15.png" alt="skate tipa">
+                        <img src="./img/h-2-slider-img-16.png" alt="skate tipo">
+                        
+                    </div>
+    
+                    <!-- SLIDE DX -->
+                    <div class="frecciaDx freccia">
+                        <div class="icona">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
                     </div>
                 </div>
-
-                <div class="titolo">
-                    <h1>Devotion that never <em>end</em></h1>
-                    <p class="testoGrigino piccolo1">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                        consectetur, adipisci velit, sed quia non numquam eius modi.
+            </div>
+    
+            <div class="nav-slide testoCenter">
+                <div class="icona">
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                </div>
+            </div>
+    
+            <div class="boxes">
+                <div class="box-riga">
+                    <div class="box">
+                        <img src="./img/h-2-port-img-1.jpg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="./img/h-2-port-img-2.jpg" alt="">
+                    </div><div class="box">
+                        <img src="./img/h-2-port-img-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box-riga">
+                    <div class="box">
+                        <img src="./img/h-2-port-img-4.jpg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="./img/h-2-port-img-5.jpg" alt="">
+                       
+                    </div><div class="box">
+                        <img src="./img/h-2-port-img-6.jpg" alt="">
+                    </div>
+                </div>
+    
+    
+                <div class="boxFreccia bianca1">
+                    <div class="quadrato">
+                        <a href="#" class="frecciaBianca"><i class="fas fa-arrow-up"></i></a>
+                    </div>
+                </div>
+                <div class="boxFreccia bianca2">
+                    <div class="quadrato">
+                        <a href="#" class="frecciaBianca"><i class="fas fa-arrow-up"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="working">
+                <div class="container">
+                    <h2 class="testoCenter">Working <em>process</em></h2>
+                    <div class="working-fasi">
+                        <div class="col1 fase">
+                            <div class="icona-working">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>First theres an idea</h4>
+                            <p class="testoGrigino piccolo2">
+                                Lorem, ipsum dolor sit conetu adipisc sed be et ore aliqua pleasure itself.
+                            </p>
+                        </div>
+        
+                        <div class="col2 fase">
+                            <div class="icona-working">
+                                <i class="far fa-comment"></i>
+                            </div>
+                            <h4>Then we talk about</h4>
+                            <p class="testoGrigino piccolo2">
+                                Lorem, ipsum dolor sit conetu adipisc sed be et ore aliqua pleasure itself.
+                            </p>
+                        </div>
+        
+                        <div class="col3 fase">
+                            <div class="icona-working">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h4>And we think about</h4>
+                            <p class="testoGrigino piccolo2"> 
+                                Lorem, ipsum dolor sit conetu adipisc sed be et ore aliqua pleasure itself. 
+                            </p>
+                        </div>
+        
+                        <div class="col4 fase">
+                            <div class="icona-working">
+                                <i class="fas fa-pencil-ruler"></i>
+                            </div>
+                            <h4>So we draw along</h4>
+                            <p class="testoGrigino piccolo2">
+                                Lorem, ipsum dolor sit conetu adipisc sed be et ore aliqua pleasure itself.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxFreccia bianca3">
+                    <div class="quadrato">
+                        <a href="#" class="frecciaBianca"><i class="fas fa-arrow-up"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="work-with-us">
+                <div class="container testoCenter">
+                    <h2>Want to work with us? Send us <em>a message!</em></h2>
+                    <p class="piccolo1 testoGrigino">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore.
+                        Ut enimi ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commo.
                     </p>
                     <button class="button">
-                        <a href="#" class="linkStile upperCase">read more</a>
-                    </button>
+                        <a href="#" class="upperCase linkStile">contact</a>
+                    <button>
                 </div>
-                <div class="skate-img">
-                    <img src="./img/h-2-slider-img-15.png" alt="skate tipa">
-                    <img src="./img/h-2-slider-img-16.png" alt="skate tipo">
-                    
+               
+            </div>
+    
+            <div class="articoli">
+                <div class="boxFreccia bianca4">
+                    <div class="quadrato">
+                        <a href="#" class="frecciaBianca"><i class="fas fa-arrow-up"></i></a>
+                    </div>
                 </div>
-
-                <!-- SLIDE DX -->
-                <div class="frecciaDx freccia">
-                    <div class="icona">
-                        <i class="fas fa-angle-right"></i>
+                <div class="container">
+                    <div class="articolo-box">
+                        <div class="img">
+                            <img src="./img/h-2-blog-img-1.jpg" alt="">
+                        </div>
+                        <h3><a href="#" class="linkStile">This away, loves: a detailed guide through new design</a></h3>
+                        <p class="piccolo2">By Emily Fields</p>
+                    </div>
+                    <div class="articolo-box">
+                        <div class="img">
+                            <img src="./img/h-2-blog-img-2.jpg" alt="">
+                        </div>
+                        <h3><a href="#" class="linkStile">I try to give people a different way of looking art</a></h3>
+                        <p class="piccolo2">By Emily Fields</p>
+                    </div>
+                    <div class="articolo-box">
+                        <div class="img">
+                            <img src="./img/h-2-blog-img-3.jpg" alt="">
+                        </div>
+                        <h3><a href="#" class="linkStile">Introduce Richard Laperrière of those amazing features</a></h3>
+                        <p class="piccolo2">By Emily Fields</p>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="nav-slide testoCenter">
-            <div class="icona">
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
+        </main>
+    
+        <div class="fix">
+            <div class="quadratoRosso">
+                <i class="fas fa-spinner"></i>
+            </div>
+            <div class="quadratoShop">
+                <i class="fas fa-cart-arrow-down"></i>
             </div>
         </div>
-
-        <div class="boxes">
-            <div class="box-riga">
-                <div class="box">
-                    <img src="./img/h-2-port-img-1.jpg" alt="">
-                </div>
-                <div class="box">
-                    <img src="./img/h-2-port-img-2.jpg" alt="">
-                </div><div class="box">
-                    <img src="./img/h-2-port-img-3.jpg" alt="">
-                </div>
-            </div>
-            <div class="box-riga">
-                <div class="box">
-                    <img src="./img/h-2-port-img-4.jpg" alt="">
-                </div>
-                <div class="box">
-                    <img src="./img/h-2-port-img-5.jpg" alt="">
-                   
-                </div><div class="box">
-                    <img src="./img/h-2-port-img-6.jpg" alt="">
-                </div>
-            </div>
-
-
-            <div class="boxFreccia bianca1">
-                <div class="quadrato">
-                    <a href="#" class="frecciaBianca"><i class="fas fa-arrow-up"></i></a>
-                </div>
-            </div>
-            <div class="boxFreccia bianca2">
-                <div class="quadrato">
-                    <a href="#" class="frecciaBianca"><i class="fas fa-arrow-up"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="working">
+    
+        <footer>
             <div class="container">
-                <h2 class="testoCenter">Working <em>process</em></h2>
-                <div class="working-fasi">
-                    <div class="col1 fase">
-                        <div class="icona-working">
-                            <i class="fas fa-lightbulb"></i>
-                        </div>
-                        <h4>First theres an idea</h4>
-                        <p class="testoGrigino piccolo2">
-                            Lorem, ipsum dolor sit conetu adipisc sed be et ore aliqua pleasure itself.
-                        </p>
-                    </div>
+                <div class="footer-box">
+                    <img src="./img/logo-sidearea-1-1.png" alt="">
+                    <p>Let's Get Creative</p>
+                </div>
+                <div class="footer-box">
+                    <ul>
+                        <li class="linkStile">maree.qode@gmail.com</li>
+                        <li class="linkStile">+44645321789</li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                   <ul>
+                       <li>Avenue d'Auderghem 10</li>
+                       <li>1040 Brussels, Belgium</li>
+                   </ul>
+                </div>
+                <div class="footer-box">
+                    <div>Stay in touch with us</div>
+                    <ul>
+                        <li>
+                            <a href="" class="linkStile">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="linkStile">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="linkStile">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="linkStile">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     
-                    <div class="col2 fase">
-                        <div class="icona-working">
-                            <i class="far fa-comment"></i>
-                        </div>
-                        <h4>Then we talk about</h4>
-                        <p class="testoGrigino piccolo2">
-                            Lorem, ipsum dolor sit conetu adipisc sed be et ore aliqua pleasure itself.
-                        </p>
-                    </div>
-    
-                    <div class="col3 fase">
-                        <div class="icona-working">
-                            <i class="fas fa-cloud"></i>
-                        </div>
-                        <h4>And we think about</h4>
-                        <p class="testoGrigino piccolo2"> 
-                            Lorem, ipsum dolor sit conetu adipisc sed be et ore aliqua pleasure itself. 
-                        </p>
-                    </div>
-    
-                    <div class="col4 fase">
-                        <div class="icona-working">
-                            <i class="fas fa-pencil-ruler"></i>
-                        </div>
-                        <h4>So we draw along</h4>
-                        <p class="testoGrigino piccolo2">
-                            Lorem, ipsum dolor sit conetu adipisc sed be et ore aliqua pleasure itself.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="boxFreccia bianca3">
-                <div class="quadrato">
-                    <a href="#" class="frecciaBianca"><i class="fas fa-arrow-up"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="work-with-us">
-            <div class="container testoCenter">
-                <h2>Want to work with us? Send us <em>a message!</em></h2>
-                <p class="piccolo1 testoGrigino">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                    Ut enimi ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commo.
-                </p>
-                <button class="button">
-                    <a href="#" class="upperCase linkStile">contact</a>
-                <button>
-            </div>
-           
-        </div>
-
-        <div class="articoli">
-            <div class="boxFreccia bianca4">
-                <div class="quadrato">
-                    <a href="#" class="frecciaBianca"><i class="fas fa-arrow-up"></i></a>
-                </div>
-            </div>
-            <div class="container">
-                <div class="articolo-box">
-                    <div class="img">
-                        <img src="./img/h-2-blog-img-1.jpg" alt="">
-                    </div>
-                    <h3><a href="#" class="linkStile">This away, loves: a detailed guide through new design</a></h3>
-                    <p class="piccolo2">By Emily Fields</p>
-                </div>
-                <div class="articolo-box">
-                    <div class="img">
-                        <img src="./img/h-2-blog-img-2.jpg" alt="">
-                    </div>
-                    <h3><a href="#" class="linkStile">I try to give people a different way of looking art</a></h3>
-                    <p class="piccolo2">By Emily Fields</p>
-                </div>
-                <div class="articolo-box">
-                    <div class="img">
-                        <img src="./img/h-2-blog-img-3.jpg" alt="">
-                    </div>
-                    <h3><a href="#" class="linkStile">Introduce Richard Laperrière of those amazing features</a></h3>
-                    <p class="piccolo2">By Emily Fields</p>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <div class="fix">
-        <div class="quadratoRosso">
-            <i class="fas fa-spinner"></i>
-        </div>
-        <div class="quadratoShop">
-            <i class="fas fa-cart-arrow-down"></i>
-        </div>
+        <!-- link Axios -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <!-- link JS -->
+        <script src="./main.js"></script>
     </div>
-
-    <footer>
-        <div class="container">
-            <div class="footer-box">
-                <img src="./img/logo-sidearea-1-1.png" alt="">
-                <p>Let's Get Creative</p>
-            </div>
-            <div class="footer-box">
-                <ul>
-                    <li class="linkStile">maree.qode@gmail.com</li>
-                    <li class="linkStile">+44645321789</li>
-                </ul>
-            </div>
-            <div class="footer-box">
-               <ul>
-                   <li>Avenue d'Auderghem 10</li>
-                   <li>1040 Brussels, Belgium</li>
-               </ul>
-            </div>
-            <div class="footer-box">
-                <div>Stay in touch with us</div>
-                <ul>
-                    <li>
-                        <a href="" class="linkStile">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="linkStile">
-                            <i class="fab fa-pinterest-p"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="linkStile">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="linkStile">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-    <!-- link Axios -->
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <!-- link JS -->
-    <script src="./main.js"></script>
 </body>
 </html>
