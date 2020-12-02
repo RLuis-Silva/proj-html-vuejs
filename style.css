@@ -17,7 +17,7 @@ body{
 /* UTILITIES */
 .container{
     padding: 80px;
-    width: 1180px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
@@ -206,7 +206,7 @@ header .titolo img{
 
 .devotion .container{
     /* background-color: lightblue; */
-    width: 100%;
+    max-width: 100%;
     margin: 0 0;
     padding: 30px;
     display: flex;
@@ -214,7 +214,8 @@ header .titolo img{
 }
 
 .container .freccia{
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    flex-basis: 10%;
     /* background-color: orange; */
     position: relative;
 }
@@ -247,13 +248,16 @@ header .titolo img{
 }
 
 .devotion .container .titolo{
-    flex-basis: 500px;
+    flex-basis: 40%;
 }
 
 
 
 .devotion .container .skate-img{
     /* background-color: #c0e1cf; */
+    flex-basis: 40%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* DEVOTION/ TITOLO */
@@ -266,7 +270,7 @@ header .titolo img{
 
 /* DEVOTION/SKATE-IMG */
 .devotion .container .skate-img img{
-    width: 250px;
+    max-width: 250px;
 }
 
 
@@ -295,6 +299,7 @@ header .titolo img{
     /* flex-wrap: wrap; */
     /* flex-direction: column; */
     padding: 0;
+    margin-bottom: -5px;
 }
 
 .boxes .box-riga .box{
@@ -311,27 +316,30 @@ header .titolo img{
     width: 100%;
 }
 
-.box-riga:last-child {
+/* .box-riga:last-child {
     position: relative;
     top: -5px;
-}
+} */
 
 /* SEZIONE WORKING */
-.working .container .working-fasi{
+.working .container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: orange; */
+}
+.working-fasi{
+    display: flex;
     background-image: url("./img/svg/svg-3.svg");
     background-repeat: no-repeat;
     background-size: 800px 100px;
     background-position: top;
-    
-}
-.working-fasi{
-    display: flex;
     /* background-color: lightblue; */
     margin-top: 60px;
 }
 
 .working-fasi .fase{
     /* border: solid 1px black; */
+    /* flex-basis: calc(100% / 4); */
     text-align: center;
     padding: 10px;
     padding-top: 10px;
