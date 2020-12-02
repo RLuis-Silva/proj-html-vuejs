@@ -317,18 +317,24 @@ header .titolo img{
 }
 
 /* SEZIONE WORKING */
-
+.working .container .working-fasi{
+    background-image: url("./img/svg/svg-3.svg");
+    background-repeat: no-repeat;
+    background-size: 800px 100px;
+    background-position: top;
+    
+}
 .working-fasi{
     display: flex;
     /* background-color: lightblue; */
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .working-fasi .fase{
     /* border: solid 1px black; */
     text-align: center;
     padding: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .icona-working i{
