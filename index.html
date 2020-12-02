@@ -235,26 +235,26 @@
                     <p>Let's Get Creative</p>
                 </div>
                 <div class="footer-box">
-                    <ul>
-                        <li class="linkStile">maree.qode@gmail.com</li>
-                        <li class="linkStile">+44645321789</li>
+                    <ul >
+                        <li class="linkStile">{{contattoPersonale.email}} </li>
+                        <li class="linkStile">{{contattoPersonale.tel}} </li>
                     </ul>
                 </div>
                 <div class="footer-box">
                    <ul>
-                       <li>Avenue d'Auderghem 10</li>
-                       <li>1040 Brussels, Belgium</li>
+                       <li>{{indirizzo.via}} </li>
+                       <li>{{indirizzo.citta}} </li>
                    </ul>
                 </div>
                 <div class="footer-box">
                     <div>Stay in touch with us</div>
-                    <ul>
-                        <li>
+                    <ul v-for="social in ArraySocial">
+                        <li v-for="social in ArraySocial">
                             <a href="" class="linkStile">
-                                <i class="fab fa-twitter"></i>
+                                <i :class="url"></i>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="" class="linkStile">
                                 <i class="fab fa-pinterest-p"></i>
                             </a>
@@ -268,7 +268,7 @@
                             <a href="" class="linkStile">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
