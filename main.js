@@ -9,7 +9,9 @@ const web = new Vue({
             {nome: "Portfolio"},
             {nome: "Blog"},
             {nome: "Shop"},
-            {nome: "Elements"}
+        ],
+        navBarIcone:[
+            {nome: "menuHumburger"}
         ],
 
         contattoPersonale: {
