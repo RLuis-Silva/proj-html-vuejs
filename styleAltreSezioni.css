@@ -208,7 +208,7 @@ header .titolo img{
 }
 
 main {
-    background-color: orange;
+    /* background-color: orange; */
     /* max-width: 1180px; */
     flex-grow: 1;
 }
