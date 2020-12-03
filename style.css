@@ -450,7 +450,7 @@ footer .container ul li {
 }
 
 
-footer .container .footer-box:last-child ul li{
+footer .container .footer-box:last-child ul{
     display: inline-block;
     margin-right: 10px;
     margin-top: 10px;
