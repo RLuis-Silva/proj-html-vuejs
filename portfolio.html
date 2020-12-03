@@ -30,7 +30,9 @@
                 <!-- a dx HEADER-->
                 <nav>
                     <ul v-for="sezione in navBarSezioni">
-                        <li><a href="#" class="linkStile upperCase">{{sezione.nome}}</a></li>
+                        <li>
+                            <a :href="`${sezione.url} `" class="linkStile upperCase sonoQui">{{sezione.nome}}</a>
+                        </li>
                         <!-- <li><a href="#" class="linkStile upperCase">pages</a></li>
                         <li><a href="#" class="linkStile upperCase">portfolio</a></li>
                         <li><a href="#" class="linkStile upperCase">blog</a></li>
