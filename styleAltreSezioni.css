@@ -207,6 +207,36 @@ header .titolo img{
     width: 200px;
 }
 
+
+/* NAV-HEADER-DROPDOWN */
+nav ul:last-child .dropdown{
+    position: relative;
+}
+
+.dropdown .dropdown-menu{
+    display: none;
+    position:absolute;
+    margin-top: 5px;
+    width: 150px;
+    /* height: 100%; */
+    top: 100%;
+    right: -20px;
+    border-radius: 4px;
+    padding: 15px 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.39);
+}
+
+.dropdown .dropdown-menu a {
+    display: block;
+    text-transform: none;
+    /* margin-bottom: 5px; */
+    font-size: 15px;
+}
+
+
+/* MAIN */
+
 main {
     /* background-color: orange; */
     /* max-width: 1180px; */

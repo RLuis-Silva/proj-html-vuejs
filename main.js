@@ -33,7 +33,24 @@ const web = new Vue({
             {nome: "pinterest", url:"pinterest-p", link:"https://www.pinterest.it"},
             {nome:"facebook", url:"facebook-f", link: "https://it-it.facebook.com/"},
             {nome: "linkedin", url:"linkedin-in", link:"https://it.linkedin.com/"}
-        ]
+        ],
 
     }
 });
+
+$(document).ready(function(){
+
+    // Ref
+    var link = $('.dropdown > a');
+    var menu = $('.dropdown > .dropdown-menu');
+
+    // mostra  Toggle Menu
+    link.click( function (){
+
+        var menuAttuale = $(this).next('.dropdown-menu');
+        menu.not(menuAttuale).hide();
+        menuAttuale.toggle();
+        
+    });
+
+}); 
