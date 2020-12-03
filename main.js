@@ -4,14 +4,14 @@ const web = new Vue({
     el: "#web",
     data: {
         navBarSezioni: [
-            {nome: "Home"},
+            {nome: "LUL"},     //Home
             {nome: "Pages"},
             {nome: "Portfolio"},
             {nome: "Blog"},
             {nome: "Shop"},
         ],
         navBarIcone:[
-            {nome: "menuHumburger"}
+            {nome: "menuHumburger", path:"th"}
         ],
 
         contattoPersonale: {
