@@ -41,7 +41,13 @@
                         <li><a href="#" class="linkStile upperCase"><i class="fas fa-th"></i></a></li> -->
                     </ul>
                     <ul v-for="icona in navBarIcone">
-                        <li><a href="#" class="linkStile upperCase"><i :class="`fas fa-${icona.path}`"></i></a></li>
+                        <li class="dropdown"><a href="#" class="linkStile upperCase"><i :class=" `fas fa-${icona.path}`"></i></a>
+                            <div class="dropdown-menu">
+                                <a href="#HowWeWork" class="linkStile">How we work</a>
+                                <a href="#WorkWithUs" class="linkStile">Work with us</a>
+                                <a href="#contactUs" class="linkStile">Contact us</a>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
             </header>
@@ -96,6 +102,8 @@
                 </div>
             </footer>
         </div>
+           <!-- link jQUery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
         <!-- link Axios -->
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <!-- link JS -->
