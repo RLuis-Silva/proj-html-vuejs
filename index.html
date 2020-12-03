@@ -31,8 +31,12 @@
             <nav>
                 <ul v-for="sezione in navBarSezioni">
                     <li>
-                        <a :href="`${sezione.url} `" class="linkStile upperCase sonoQui">{{sezione.nome}}</a>
+                    <!-- <li v-if= "${sezione.url} == 'index.html' "> -->
+                        <a :href="`${sezione.url} `" class="linkStile upperCase ">{{sezione.nome}}</a>
                     </li>
+                        <!-- <li v-else>
+                        <a :href=" ` ${sezione.url} `" :class="linkStile upperCase">{{sezione.nome}}</a>
+                    </li>  -->
 
                     <!-- <li><a href="#" class="linkStile upperCase">pages</a></li>
                     <li><a href="#" class="linkStile upperCase">portfolio</a></li>
