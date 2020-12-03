@@ -29,10 +29,10 @@ const web = new Vue({
         },
 
         ArraySocial: [
-            {nome: "twitter", url: "twitter"},
-            {nome: "pinterest", url:"pinterest-p"},
-            {nome:"facebook", url:"facebook-f"},
-            {nome: "linkedin", url:"linkedin-in"}
+            {nome: "twitter", url: "twitter", link: "https://twitter.com/login?lang=it"},
+            {nome: "pinterest", url:"pinterest-p", link:"https://www.pinterest.it"},
+            {nome:"facebook", url:"facebook-f", link: "https://it-it.facebook.com/"},
+            {nome: "linkedin", url:"linkedin-in", link:"https://it.linkedin.com/"}
         ]
 
     }
