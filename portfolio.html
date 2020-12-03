@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link CSS -->
+        <link rel="stylesheet" href="./styleAltreSezioni.css">
+        <!-- link VUE -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <!-- link FONT AWSOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <!-- link FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Nerko+One&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+        
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Nerko+One&family=Source+Serif+Pro:ital@1&family=Ubuntu:wght@300&display=swap" rel="stylesheet">  -->
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,900&display=swap" rel="stylesheet"> 
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div id="web">
+            <header>
+                <!-- a sx HEADER-->
+                <div class="titolo"> 
+                    <img src="./img/logo-sidearea-1-1.png" alt="">
+                </div>
+                <!-- a dx HEADER-->
+                <nav>
+                    <ul v-for="sezione in navBarSezioni">
+                        <li><a href="#" class="linkStile upperCase">{{sezione.nome}}</a></li>
+                        <!-- <li><a href="#" class="linkStile upperCase">pages</a></li>
+                        <li><a href="#" class="linkStile upperCase">portfolio</a></li>
+                        <li><a href="#" class="linkStile upperCase">blog</a></li>
+                        <li><a href="#" class="linkStile upperCase">shop</a></li>
+                        <li><a href="#" class="linkStile upperCase">elements</a></li>
+                        <li><a href="#" class="linkStile upperCase"><i class="fas fa-th"></i></a></li> -->
+                    </ul>
+                    <ul v-for="icona in navBarIcone">
+                        <li><a href="#" class="linkStile upperCase"><i :class="`fas fa-${icona.path}`"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="container">
+                    
+                </div>
+            </main>
+        </div>
+        <!-- link Axios -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <!-- link JS -->
+        <script src="./main.js"></script>
+    </body>
+</html>

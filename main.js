@@ -4,11 +4,11 @@ const web = new Vue({
     el: "#web",
     data: {
         navBarSezioni: [
-            {nome: "LUL"},     //Home
-            {nome: "Pages"},
-            {nome: "Portfolio"},
-            {nome: "Blog"},
-            {nome: "Shop"},
+            {nome: "Home", url:"index.html"},     //Home
+            {nome: "Pages", url:"pages.html"},
+            {nome: "Portfolio", url:"portfolio.html"},
+            {nome: "Blog", url:"blog.html"},
+            {nome: "Shop", url:"shop.html"},
         ],
         navBarIcone:[
             {nome: "menuHumburger", path:"th"}
