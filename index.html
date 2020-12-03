@@ -239,8 +239,8 @@
                 </div>
                 <div class="footer-box">
                     <ul >
-                        <li class="linkStile">{{contattoPersonale.email}} </li>
-                        <li class="linkStile">{{contattoPersonale.tel}} </li>
+                        <li class="linkStile">{{contattiPersonale.email}} </li>
+                        <li class="linkStile">{{contattiPersonale.tel}} </li>
                     </ul>
                 </div>
                 <div class="footer-box">
@@ -252,9 +252,9 @@
                 <div class="footer-box">
                     <div>Stay in touch with us</div>
                     <ul v-for="social in ArraySocial">
-                        <li v-for="social in ArraySocial">
+                        <li>
                             <a href="" class="linkStile">
-                                <i :class="url"></i>
+                                <i :class=" `fab fa-${social.url}` "></i>
                             </a>
                         </li>
                         <!-- <li>

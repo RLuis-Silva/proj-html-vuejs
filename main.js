@@ -14,7 +14,7 @@ const web = new Vue({
             {nome: "menuHumburger", path:"th"}
         ],
 
-        contattoPersonale: {
+        contattiPersonale: {
             email: "maree.qode@gmail.com",
             tel: "+44645321789"
         },
@@ -29,10 +29,10 @@ const web = new Vue({
         },
 
         ArraySocial: [
-            {nome: "twitter", url: "fab fa-twitter"},
-            {nome: "pinterest", url:"fab fa-facebook-f"},
-            {nome:"facebook", url:"fab fa-facebook-f"},
-            {nome: "linkedin", url:"fab fa-linkedin-in"}
+            {nome: "twitter", url: "twitter"},
+            {nome: "pinterest", url:"pinterest-p"},
+            {nome:"facebook", url:"facebook-f"},
+            {nome: "linkedin", url:"linkedin-in"}
         ]
 
     }
